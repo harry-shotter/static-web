@@ -79,6 +79,7 @@ h1 {
 .header-item h1 {
     margin-right: 5px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .subheader-item {
@@ -89,8 +90,7 @@ h1 {
         justify-self: stretch;
     -ms-grid-row-align: end;
         align-self: end;
-    /* border-bottom: #B3B6B7 1px solid; */
-    padding-left: 4px;
+    text-align: center;
 }
 
 .divider-item {
