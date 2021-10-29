@@ -21,8 +21,8 @@
 */
 
 html {
-    background-color: #f8f8f8;
-    color: #040F0F;
+    background-color: #EDF2F4;
+    color: #2B2D42;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -64,6 +64,10 @@ h1 {
     .subheader-item {
         padding-right: 20px;
     }
+
+    .subheader-item p{
+        float:none !important;
+    }
 }
 
 .header-item {
@@ -83,6 +87,7 @@ h1 {
 }
 
 .subheader-item {
+    color: #556177;
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: subheader;
@@ -90,14 +95,24 @@ h1 {
         justify-self: stretch;
     -ms-grid-row-align: end;
         align-self: end;
-    text-align: center;
+    text-align: left;
+}
+
+.subheader-item p {
+    float:left;
+    padding-right: 4px;
+    margin-top: 0;
+}
+
+.subheader-item p:first-of-type{
+    margin-bottom: 0;
 }
 
 .divider-item {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: divider;
-    border-top: #B3B6B7 1px solid;
+    border-top: #2B2D42 1px solid;
     margin-top: 0px;
     width: 100%;
 }
@@ -106,7 +121,7 @@ h1 {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     font-size: 2em;
-    margin-top: 16px;
+    margin-top: 12px;
     grid-area: social;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -116,10 +131,10 @@ h1 {
 
 .social-item a {
     display: inline-block;
-    border: 2px solid #B3B6B7;
+    border: 2px solid #2B2D42;
     border-radius: 13px;
     padding: 5px;
-    color: #5C6D70;
+    color: #2B2D42;
     text-decoration: none;
     text-align: center;
     transition: 0.3s;
@@ -149,8 +164,8 @@ h1 {
 }
 
 .social-item a:hover {
-    color: #040F0F;
-    border-color: #040F0F;
+    color: #D90429;
+    border-color: #D90429;
 }
 
 .social-item i {
